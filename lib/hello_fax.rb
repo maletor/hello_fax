@@ -24,7 +24,7 @@ module HelloFax
       self.class.get("/Accounts/#{@guid}")
     end
 
-    def account_details(options)
+    def update_account_details(options)
       self.class.put("/Accounts/#{@guid}", :query => options)
     end
 
