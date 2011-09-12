@@ -16,7 +16,7 @@ Then all you need to do is:
 
 ```
 $hello_fax = HelloFax::API.new("email@address.com", 'password', 'guid') # this belongs in an initializer
-$hello_fax.send_fax('5555555555', File.new("file.pdf"))
+$hello_fax.send_fax('555123456', File.new("file.pdf"))
 ```
 
 This returns an HTTPary::Response object which you can call `#parsed_response` on to convert the JSON in the reponse to Ruby.
