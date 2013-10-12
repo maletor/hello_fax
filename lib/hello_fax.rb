@@ -32,6 +32,10 @@ module HelloFax
       self.class.get("/Accounts/#{@guid}/Transmissions")
     end
 
+    def transmission_details(transmission_guid)
+      self.class.get("/Accounts/#{@guid}/Transmissions/#{transmission_guid}")
+    end
+    
     def fax_lines
       self.class.get("/Accounts/#{@guid}/FaxLines")
     end
