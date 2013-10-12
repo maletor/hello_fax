@@ -3,6 +3,7 @@ describe HelloFax do
   it "should get account details"
   it "should put account details"
   it "should get current transmissions"
+  it "should get transmission details"
   it "should get fax lines in use"
   it "should get fax numbers available by state"
 end
