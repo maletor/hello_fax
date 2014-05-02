@@ -4,6 +4,7 @@ require "hello_fax/version"
 
 Gem::Specification.new do |s|
   s.name        = "hello_fax"
+  s.license     = "MIT"
   s.version     = HelloFax::VERSION
   s.authors     = ["Ellis Berner"]
   s.email       = ["eberner@doximity.com"]
