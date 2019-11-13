@@ -6,7 +6,7 @@ module HelloFax
 
     include ::HTTMultiParty
 
-    base_uri "https://www.hellofax.com/apiapp.php/v1/"
+    base_uri "https://api.hellofax.com/v1/"
     headers 'User-Agent' => "hello_fax gem #{VERSION}"
 
     attr_accessor :guid
